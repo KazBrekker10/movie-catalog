@@ -1,0 +1,327 @@
+html{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 10px;
+ scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  background-color: #232323;
+  color:#c3c3c3;
+}
+
+/*header*/
+header{
+  position: absolute;
+  z-index: 10;
+
+
+}
+
+.main-menu{
+  height: 70px;
+}
+
+
+.main-menu ul{
+  margin: 0 30px;
+  box-sizing: border-box ;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.main-menu ul li{
+  font-size: 2.2em;
+}
+
+.main-menu ul li:hover{
+  color: #ffffff;
+}
+
+
+/**/
+
+#hero{
+  overflow-x: hidden;
+  width: 100%;
+  position:relative ;
+}
+#hero>section{
+  height: 100vh;
+  width: 500%;
+  display: flex;
+  position: relative;
+  right: 0;
+  transition: right .3s ease-in-out;
+
+}
+
+#hero .slider-button{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: none;
+  border: none;
+  font-size: 3.2em;
+  margin: 0 10px;
+  cursor: pointer;
+  width: 40px;
+  z-index: 4;
+  color: #c3c3c3;
+  opacity: .5;
+}
+
+#hero .slider-button:hover{
+  opacity: 1;
+}
+
+.slider-button.right{
+  right: 0;
+}
+#hero>section li{
+  width: 20%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.content{
+  position: relative;
+  width: fit-content;
+  z-index: 2;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  text-align: center;
+}
+
+.content h3{
+  font-size: 6em;
+  text-align: center;
+}
+
+.content h4{
+  color: #aaa;
+  font-size: 2.5em;
+}
+
+.content .info{
+  max-height: 100px;
+  overflow: hidden;
+}
+.content p{
+  font-size: 2.2em;
+  text-overflow: ellipsis;
+}
+
+.content a{
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 2.5em;
+  padding: .4em;
+  border: 3px solid #aa6600;
+  transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s ease-in-out;
+}
+.content a:hover{
+  background-color: #ffffff;
+  color: #cc6600;
+  border-color: #ffffff;
+}
+
+#hero>section img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+#hero::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0/.5);
+  z-index: 2;
+}
+
+/*Final del Hero*/
+
+/*Main*/
+
+.main{
+  display: flex;
+
+}
+
+
+main{
+  flex-grow: 10;
+}
+
+aside{
+  flex-grow: 2;
+}
+
+aside h2{
+  font-size: 3em;
+  text-align: center;
+  margin: 30px;
+}
+
+.movie-section{
+  padding: 20px 30px;
+}
+.movie-title{
+  font-size: 3.6em;
+}
+
+.movie-list{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.update-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.update-list li{
+  width: 40%;
+}
+
+.movie-item {
+  color: #ffffff;
+  aspect-ratio: 79/118;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+
+}
+
+.movie-item>a>h3{
+  text-align: center;
+}
+
+.movie-item:hover .movie-info{
+  left:0
+}
+
+.movie-info{
+  color:#c3c3c3;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: rgb(0 0 0/.8);
+  z-index: 3;
+  padding: 10px;
+  transition: left .3s ease-in-out;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.movie-info h3{
+  font-weight: 900;
+}
+.movie-info p{
+  font-size: 1.4em;
+  max-height: 70%;
+  text-overflow:ellipsis;
+  flex-grow: 1;
+}
+
+.movie-item h3{
+  font-size: 1.5em ;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  z-index: 2;
+  color:#fcea74;
+  text-align: center;
+}
+
+.movie-item img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.movie-item img:before{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color: rgb(0 0 0/.3);
+  z-index:3
+}
+
+.movie-item span{
+  background-color: rgb(0 0 0/.5);
+  display: inline-block;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5em;
+}
+
+.movie-item span.year{
+  left: 0;
+}
+
+.movie-item span.type{
+  right: 0;
+}
+
+/*Hero*/
+
+
+
+/*Media queries*/
+@media screen and (max-width:900px){
+  header{
+    font-size: 8px;
+  }
+
+  .movie-section h2{
+    text-align: center;
+  }  
+  .content{
+    font-size: 8px;
+    padding: ;
+  }
+  aside{
+    display: none;
+  }
+}

@@ -126,13 +126,13 @@
     "sinopsis": "Basada en la vida de los inseparables hermanos Von Erich, que hicieron historia en el competitivo mundo de la lucha libre profesional a principios de la década de los 80. A través de la tragedia y el triunfo, bajo la sombra de su dominante padre y entrenador, los hermanos buscan la inmortalidad en el escenario más importante del deporte."
   },
   {
-    "title": "Tratamos demasiado bien a las mujeres",
-    "id": "716074",
-    "thumb": "257683339",
-    "poster": "538004117",
+    "title": "The Super Mario Bros. Movie",
+    "id": "520586",
+    "thumb": "521125124",
+    "poster": "598848095",
     "type": "movie",
     "year": "2024",
-    "sinopsis": "Remedios Buendía defiende su patria y luchará por ello por encima de todos. Un fatídico día del otoño de 1945, un grupo de maquis a la fuga tiene la mala idea de tomar la estafeta donde Remedios, ilusionada, se prueba su vestido de novia. Hoy será el día en el que demostrará hasta donde puede llegar defendiendo sus valores. Y nadie podrá pararla. Ni siquiera este batallón de rebeldes con fusiles humeantes y puños en alto."
+    "sinopsis": "Mientras trabajan en una avería subterránea, los fontaneros de Brooklyn, Mario y su hermano Luigi, viajan por una misteriosa tubería hasta un nuevo mundo mágico. Pero, cuando los hermanos se separan, Mario deberá emprender una épica misión para encontrar a Luigi. Con la ayuda del champiñón local Toad y unas cuantas nociones de combate de la guerrera líder del Reino Champiñón, la princesa Peach, Mario descubre todo el poder que alberga en su interior."
   },
   {
     "title": "Society Of The Snow",
@@ -142,5 +142,77 @@
     "year": "2023",
     "type": "movie",
     "sinopsis":"En 1972, el vuelo 571 de la Fuerza Aérea Uruguaya, fletado para llevar a un equipo de rugby a Chile, se estrella en un glaciar en el corazón de los Andes. Solo 29 de sus 45 pasajeros sobreviven al accidente. Atrapados en uno de los entornos más inaccesibles y hostiles del planeta, se ven obligados a recurrir a medidas extremas para mantenerse con vida."
+  },
+  {
+    "title": "Anyone But You",
+    "id": "672663",
+    "thumb": "366144700",
+    "poster": "390684070",
+    "type": "movie",
+    "year": "2023",
+    "sinopsis": "Bea y Ben parecen la pareja perfecta, pero tras una increíble primera cita sucede algo que enfría su fuerte atracción, hasta que se encuentran inesperadamente en una boda en Australia. Obligados a verse, y a pesar de su rechazo mutuo, por conveniencia para ambos deciden fingir que son una pareja."
+  },
+  {
+    "title": "La estrella azul",
+    "id": "351606",
+    "thumb": "666029724",
+    "poster": "239335167",
+    "type": "movie",
+    "year": "2023",
+    "sinopsis": "Años 90. Mauricio Aznar, un famoso rockero español recorre Latinoamérica buscando reencontrarse con su vocación dejando atrás el fantasma de la adicción. Allí conoce a Don Carlos, un anciano músico en horas bajas que, a pesar de ser autor de algunas de las canciones más famosas del folclore de su país, apenas consigue pagar sus facturas. Carlos acoge con generosidad al extraño visitante haciendo las veces de maestro Miyagi musical. De su encuentro nace un extravagante dúo quijotesco, con todos los visos de ser un absoluto fracaso comercial."
+  },
+  {
+    "title": "The Wild Robot",
+    "id": "605382",
+    "thumb": "329468926",
+    "poster":"519015414",
+    "type": "movie",
+    "year": "2024",
+    "sinopsis": "La película sigue el épico viaje de un robot -la unidad 7134 de Roz, 'Roz' para abreviar- que naufraga en una isla deshabitada y debe aprender a adaptarse al duro entorno, entablando gradualmente relaciones con los animales de la isla y convirtiéndose en padre adoptivo de un gosling huérfano."
+  },
+  {
+    "title": "Barbie",
+    "id":"506593",
+    "thumb": "295661697",
+    "poster": "240808706",
+    "type": "movie",
+    "year": "2023",
+    "sinopsis": "Barbie (Margot Robbie) lleva una vida ideal en Barbieland, allí todo es perfecto, con chupi fiestas llenas de música y color, y todos los días son el mejor día. Claro que Barbie se hace algunas preguntas, cuestiones bastante incómodas que no encajan con el mundo idílico en el que ella y las demás Barbies viven. Cuando Barbie se dé cuenta de que es capaz de apoyar los talones en el suelo, y tener los pies planos, decidirá calzarse unos zapatos sin tacones y viajar hasta el mundo real."
+  },
+  {
+    "title": "Chainsaw man",
+    "id": "787404",
+    "thumb": "967317687",
+    "poster": "527770634",
+    "type": "tv",
+    "year": "2022",
+    "sinopsis": "Denji es un joven pobre que haría cualquier cosa por dinero, incluso perseguir demonios con su perro diabólico Pochita. Es una persona simple, con sueños simples, que se está ahogando en una montaña de deudas. Pero su triste vida da un vuelco cuando le traiciona alguien en quien confía. Ahora, con el poder del demonio dentro, Denji da la bienvenida a un hombre nuevo —¡'Chainsaw Man'!."
+  },
+  {
+    "title": "Shadow and Bone",
+    "id":"915498",
+    "thumb": "184093170",
+    "poster": "139248644",
+    "type": "tv",
+    "year": "2021",
+    "sinopsis": "Fuerzas siniestras conspiran contra una joven soldado que descubre un poder mágico capaz de unir a su país. Basada en las novelas del universo Grisha de Leigh Bardugo."
+  },
+  {
+    "title": "House of the Dragon",
+    "id": "388341",
+    "thumb": "678918948",
+    "poster": "589570113",
+    "type": "tv",
+    "year": "2022",
+    "sinopsis": " Historia ambientada 172 años 'antes de Daenerys Targaryen', y en el noveno año del reinado de Viserys Targaryen (Paddy Considine), un rey cuya línea de sucesión está en peligro. Su esposa Aemma (Sian Brooke) está embarazada, aunque no hay garantía de que dé a luz a un heredero varón. Si no lo hace, entonces el Trono de Hierro recaerá, bien sobre el hermano de Viserys, Daemon, un gobernante impulsivo y potencialmente tiránico (Matt Smith); o bien, rompiendo con la tradición de preferencia del varón, en la hija adolescente de Viserys, Rhaenyra (Milly Alcock), cuyo reclamo del trono está destinado a tener una fuerte oposición."
+  },
+  {
+    "title": "Soso no Frieren",
+    "id": "639696",
+    "thumb": "961057776",
+    "poster": "574875208",
+    "type": "tv",
+    "year": "2023",
+    "sinopsis": "La maga elfa Frieren y sus compañeros han derrotado al Rey Demonio, y traído la paz al mundo. Pero el tiempo pasa, y Frieren ve como sus compañeros humanos van falleciendo mientras ella sigue igual debido a su longevidad élfica. ¿Cómo entender la vida y la muerte que le rodea cuando ella tiene una esperanza de vida tan larga? Con los funerales de sus antiguos compañeros, Frieren decide cumplir los últimos deseos de sus compañeros y así empieza un nuevo viaje, y una nueva aventura..."
   }
 ]

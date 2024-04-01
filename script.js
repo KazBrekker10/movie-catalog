@@ -45,11 +45,12 @@ async function setSlider(children){
    link.href = `https://www.filmaffinity.com/es/film${id}.html`;
   })
 }
-async function renderingMovies(list,num){
+
+async function renderingMovies(list,num,typeContent="movie"){
 response = await fetch("movies.json");
-const movies = await response.json()  
-console.log(movies)
-list.append(...movies.slice(0,num??movies.length).filter(({type})=> type == "movie").map(movie=> renderMovieCard(movie)))
+const movies = await response.json(); 
+console.log(movies);
+list.append(...movies.filter(({type}) => type == typeContent).slice(0,num??movies.length).map(movie=> renderMovieCard(movie)))
 }
 
 function buttonDisplay(buttons){
@@ -67,7 +68,8 @@ buttons.forEach(button=> {
 })}
 
  setSlider(document.querySelector("#hero section").children);
- renderingMovies(document.querySelector(".movie-list"),20);
+ renderingMovies(document.querySelector(".movie-list"));
+ renderingMovies(document.querySelector(".show-list"),4,"tv")
  renderingMovies(document.querySelector(".update-list"),5);
 
 
